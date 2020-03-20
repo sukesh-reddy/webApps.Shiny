@@ -13,7 +13,7 @@ library(data.table)
 library(RCurl)
 
 # reading the data
-weather <- read.csv(text = getURL('https://raw.githubusercontent.com/dataprofessor/data/master/weather-weka.csv'))
+# weather <- read.csv(text = getURL('https://raw.githubusercontent.com/dataprofessor/data/master/weather-weka.csv'))
 
 # modelling
 # model <- randomForest(play~.,data=weather,ntree=500,mtry=4,importance=T)
@@ -22,7 +22,7 @@ weather <- read.csv(text = getURL('https://raw.githubusercontent.com/dataprofess
 # saveRDS(model, "model.rds")
 
 # Read in the RF model
-# model <- readRDS("model.rds")
+model <- readRDS("model.rds")
 
 #################
 # Shiny App
