@@ -25,7 +25,8 @@ ui <- fluidPage(theme = shinytheme('superhero'), #For available themes you can g
                              verbatimTextOutput('txtoutput')
                            )),
                   tabPanel("Navbar 2", "This panel is intentionally left blank"),
-                  tabPanel("Navbar 3", "This panel is intentionally left blank")
+                  tabPanel("Navbar 3", "This panel is intentionally left blank"),
+                  tabPanel("Navbar 4", "This panel is intentionally left blank")
                 ))
 
 
